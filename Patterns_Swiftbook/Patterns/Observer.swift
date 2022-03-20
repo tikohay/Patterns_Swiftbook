@@ -14,13 +14,14 @@ protocol Subject {
     func notify(with string: String)
 }
 
-protocol PropertyObserver: Subject {
+protocol PropertyObserver {
     func didGet(newTask task: String)
 }
 
 class Teacher: Subject {
     
     var observerCollecton = NSMutableSet()
+    
     var homeTask = "" {
         didSet {
             notify(with: homeTask)
@@ -48,18 +49,12 @@ class Pupil: NSObject, PropertyObserver {
     
     func didGet(newTask task: String) {
         homeTask = task
-        
+        print("new homework to be done")
     }
-    
-    func add(observer: PropertyObserver) {
-        <#code#>
-    }
-    
-    func remove(observer: PropertyObserver) {
-        <#code#>
-    }
-    
-    func notify(with string: String) {
-        <#code#>
+}
+
+class Pupil1: NSObject, PropertyObserver {
+    func didGet(newTask task: String) {
+        print("hello pupil1")
     }
 }
