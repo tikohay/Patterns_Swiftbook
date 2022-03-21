@@ -17,6 +17,7 @@
 		E8F2586A27E761AB009D0123 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2586927E761AB009D0123 /* Observer.swift */; };
 		E8F2586C27E77D46009D0123 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2586B27E77D46009D0123 /* Decorator.swift */; };
 		E8F2586E27E86A86009D0123 /* SImpleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2586D27E86A86009D0123 /* SImpleFactory.swift */; };
+		E8F2587027E8BE50009D0123 /* Factory Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2586F27E8BE50009D0123 /* Factory Method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E8F2586927E761AB009D0123 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		E8F2586B27E77D46009D0123 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		E8F2586D27E86A86009D0123 /* SImpleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImpleFactory.swift; sourceTree = "<group>"; };
+		E8F2586F27E8BE50009D0123 /* Factory Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory Method.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E8F2586627E72805009D0123 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F2586F27E8BE50009D0123 /* Factory Method.swift */,
 				E8F2586D27E86A86009D0123 /* SImpleFactory.swift */,
 				E8F2586B27E77D46009D0123 /* Decorator.swift */,
 				E8F2586927E761AB009D0123 /* Observer.swift */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F2587027E8BE50009D0123 /* Factory Method.swift in Sources */,
 				E8F2586827E7291C009D0123 /* Strategy.swift in Sources */,
 				E8F2586A27E761AB009D0123 /* Observer.swift in Sources */,
 				E8F2586E27E86A86009D0123 /* SImpleFactory.swift in Sources */,

@@ -40,6 +40,14 @@ class ViewController: UIViewController {
         
         
 //        SimpleFactory
-        let hugeCar = CarFactory.produceCar(type: .huge)
+//        let hugeCar = CarFactory.produceCar(type: .huge)
+        
+//        Factory Method
+        
+        let carFactory = CarFactory2()
+        let car = carFactory.produce()
+        
+        let truckFactory = TruckFactory()
+        let truck = truckFactory.produce()
     }
 }
