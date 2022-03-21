@@ -44,10 +44,18 @@ class ViewController: UIViewController {
         
 //        Factory Method
         
-        let carFactory = CarFactory2()
-        let car = carFactory.produce()
+//        let carFactory = CarFactory2()
+//        let car = carFactory.produce()
+//
+//        let truckFactory = TruckFactory()
+//        let truck = truckFactory.produce()
         
-        let truckFactory = TruckFactory()
-        let truck = truckFactory.produce()
+//        Abstract Factory
+        
+        let littleFactory = LittleSizeFactory()
+        littleFactory.produceCar()
+        
+        let middleFactory = MiddleSizeFactory()
+        middleFactory.produceBus()
     }
 }
