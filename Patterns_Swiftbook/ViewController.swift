@@ -52,10 +52,21 @@ class ViewController: UIViewController {
         
 //        Abstract Factory
         
-        let littleFactory = LittleSizeFactory()
-        littleFactory.produceCar()
+//        let littleFactory = LittleSizeFactory()
+//        littleFactory.produceCar()
+//
+//        let middleFactory = MiddleSizeFactory()
+//        middleFactory.produceBus()
         
-        let middleFactory = MiddleSizeFactory()
-        middleFactory.produceBus()
+//        Command
+        
+        let account = Account(accountName: "Akulov Ivan", balance: 1000)
+        let transactionManager = TransactionManager.shared
+        transactionManager.addTransactions(command: Deposit(account: account, amount: 100))
+        transactionManager.addTransactions(command: Withdraw(account: account, amount: 100))
+        print(transactionManager.pendingTransactions)
+        print(account.balance)
+        transactionManager.processingTransactions()
+        account.balance
     }
 }
