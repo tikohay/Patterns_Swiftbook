@@ -60,13 +60,19 @@ class ViewController: UIViewController {
         
 //        Command
         
-        let account = Account(accountName: "Akulov Ivan", balance: 1000)
-        let transactionManager = TransactionManager.shared
-        transactionManager.addTransactions(command: Deposit(account: account, amount: 100))
-        transactionManager.addTransactions(command: Withdraw(account: account, amount: 100))
-        print(transactionManager.pendingTransactions)
-        print(account.balance)
-        transactionManager.processingTransactions()
-        account.balance
+//        let account = Account(accountName: "Akulov Ivan", balance: 1000)
+//        let transactionManager = TransactionManager.shared
+//        transactionManager.addTransactions(command: Deposit(account: account, amount: 100))
+//        transactionManager.addTransactions(command: Withdraw(account: account, amount: 100))
+//        print(transactionManager.pendingTransactions)
+//        print(account.balance)
+//        transactionManager.processingTransactions()
+//        account.balance
+        
+//        Adapter
+        
+        let simpleCar = SimpleCar()
+        let car: SupercarProtocol = SupercarAdatper(simpleCar: simpleCar)
+        print(car.makeNoise())
     }
 }

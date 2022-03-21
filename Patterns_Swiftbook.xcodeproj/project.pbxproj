@@ -21,6 +21,7 @@
 		E8F2587227E8C27D009D0123 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587127E8C27D009D0123 /* AbstractFactory.swift */; };
 		E8F2587427E8C5EB009D0123 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587327E8C5EB009D0123 /* Singleton.swift */; };
 		E8F2587627E8C7D2009D0123 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587527E8C7D2009D0123 /* Command.swift */; };
+		E8F2587827E8D204009D0123 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587727E8D204009D0123 /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E8F2587127E8C27D009D0123 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		E8F2587327E8C5EB009D0123 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		E8F2587527E8C7D2009D0123 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		E8F2587727E8D204009D0123 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		E8F2586627E72805009D0123 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F2587727E8D204009D0123 /* Adapter.swift */,
 				E8F2587527E8C7D2009D0123 /* Command.swift */,
 				E8F2587327E8C5EB009D0123 /* Singleton.swift */,
 				E8F2587127E8C27D009D0123 /* AbstractFactory.swift */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F2587227E8C27D009D0123 /* AbstractFactory.swift in Sources */,
+				E8F2587827E8D204009D0123 /* Adapter.swift in Sources */,
 				E8F2587027E8BE50009D0123 /* Factory Method.swift in Sources */,
 				E8F2586827E7291C009D0123 /* Strategy.swift in Sources */,
 				E8F2587427E8C5EB009D0123 /* Singleton.swift in Sources */,
