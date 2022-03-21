@@ -71,8 +71,15 @@ class ViewController: UIViewController {
         
 //        Adapter
         
-        let simpleCar = SimpleCar()
-        let car: SupercarProtocol = SupercarAdatper(simpleCar: simpleCar)
-        print(car.makeNoise())
+//        let simpleCar = SimpleCar()
+//        let car: SupercarProtocol = SupercarAdatper(simpleCar: simpleCar)
+//        print(car.makeNoise())
+        
+//        Template Method
+        
+        let car = Car4()
+        let bicycle = Bicycle()
+        
+        car.startVehicle()
     }
 }

@@ -23,6 +23,7 @@
 		E8F2587627E8C7D2009D0123 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587527E8C7D2009D0123 /* Command.swift */; };
 		E8F2587827E8D204009D0123 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587727E8D204009D0123 /* Adapter.swift */; };
 		E8F2587A27E8E1B8009D0123 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587927E8E1B8009D0123 /* Facade.swift */; };
+		E8F2587C27E8E405009D0123 /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2587B27E8E405009D0123 /* TemplateMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E8F2587527E8C7D2009D0123 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		E8F2587727E8D204009D0123 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		E8F2587927E8E1B8009D0123 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		E8F2587B27E8E405009D0123 /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		E8F2586627E72805009D0123 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F2587B27E8E405009D0123 /* TemplateMethod.swift */,
 				E8F2587927E8E1B8009D0123 /* Facade.swift */,
 				E8F2587727E8D204009D0123 /* Adapter.swift */,
 				E8F2587527E8C7D2009D0123 /* Command.swift */,
@@ -182,6 +185,7 @@
 				E8F2586827E7291C009D0123 /* Strategy.swift in Sources */,
 				E8F2587427E8C5EB009D0123 /* Singleton.swift in Sources */,
 				E8F2586A27E761AB009D0123 /* Observer.swift in Sources */,
+				E8F2587C27E8E405009D0123 /* TemplateMethod.swift in Sources */,
 				E8F2586E27E86A86009D0123 /* SImpleFactory.swift in Sources */,
 				E8F2585727E72732009D0123 /* ViewController.swift in Sources */,
 				E8F2585327E72732009D0123 /* AppDelegate.swift in Sources */,
