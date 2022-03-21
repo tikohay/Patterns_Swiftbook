@@ -16,8 +16,7 @@ class ViewController: UIViewController {
 //    let pupil3 = Pupil1()
     
 //    Decorator
-    var porcsheBoxter: Porsche = Boxter()
-    
+//    var porcsheBoxter: Porsche = Boxter()
     
     
     override func viewDidLoad() {
@@ -31,12 +30,16 @@ class ViewController: UIViewController {
 //        teacher.homeTask = "задача №3 на странице 21"
 //        print(pupil.homeTask)
         
+        
 //        Decorator
+//        var porcsheBoxter: Porsche = Boxter()
 //        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
 //        print(porcsheBoxter.getPrice())
-        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
-        print(porcsheBoxter.getPrice())
-        print(porcsheBoxter.getDescription())
+//        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
+//        print(porcsheBoxter.getPrice())
+        
+        
+//        SimpleFactory
+        let hugeCar = CarFactory.produceCar(type: .huge)
     }
 }
-
