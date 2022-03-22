@@ -77,9 +77,18 @@ class ViewController: UIViewController {
         
 //        Template Method
         
-        let car = Car4()
-        let bicycle = Bicycle()
+//        let car = Car4()
+//        let bicycle = Bicycle()
+//
+//        car.startVehicle()
         
-        car.startVehicle()
+//        Iterator
+        
+//        let car = Car5()
+//        let goodDriverIterator = car.goodDriverIterator.next()
+//
+//        let goodDriverIteratorSequence = car.makeIterator().next()
+//        print(goodDriverIteratorSequence?.name)
     }
 }
+
