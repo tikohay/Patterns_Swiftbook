@@ -92,22 +92,27 @@ class ViewController: UIViewController {
         
 //        Composite
         
-        let topManager = Manager(lvl: 1)
-        let managerLvl2 = Manager(lvl: 2)
+//        let topManager = Manager(lvl: 1)
+//        let managerLvl2 = Manager(lvl: 2)
+//        
+//        let managerLvl3_1 = Manager(lvl: 3)
+//        let managerLvl3_2 = Manager(lvl: 3)
+//        
+//        let managerLvl10 = Manager(lvl: 10)
+//        
+//        topManager.hire(coworker: managerLvl2)
+//        
+//        managerLvl2.hire(coworker: managerLvl3_1)
+//        managerLvl2.hire(coworker: managerLvl3_2)
+//        
+//        managerLvl3_1.hire(coworker: managerLvl10)
+//        
+//        topManager.getInfo()
         
-        let managerLvl3_1 = Manager(lvl: 3)
-        let managerLvl3_2 = Manager(lvl: 3)
+//        State
         
-        let managerLvl10 = Manager(lvl: 10)
-        
-        topManager.hire(coworker: managerLvl2)
-        
-        managerLvl2.hire(coworker: managerLvl3_1)
-        managerLvl2.hire(coworker: managerLvl3_2)
-        
-        managerLvl3_1.hire(coworker: managerLvl10)
-        
-        topManager.getInfo()
+        var printer = Printer()
+        printer.turnOn()
     }
 }
 

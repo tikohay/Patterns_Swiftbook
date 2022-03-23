@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E825EE3227EB1F84008D098D /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825EE3127EB1F84008D098D /* Composite.swift */; };
+		E825EE3427EB41B3008D098D /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825EE3327EB41B3008D098D /* State.swift */; };
 		E8F2585327E72732009D0123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2585227E72732009D0123 /* AppDelegate.swift */; };
 		E8F2585527E72732009D0123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2585427E72732009D0123 /* SceneDelegate.swift */; };
 		E8F2585727E72732009D0123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2585627E72732009D0123 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		E825EE3127EB1F84008D098D /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		E825EE3327EB41B3008D098D /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		E8F2584F27E72732009D0123 /* Patterns_Swiftbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_Swiftbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F2585227E72732009D0123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F2585427E72732009D0123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		E8F2586627E72805009D0123 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E825EE3327EB41B3008D098D /* State.swift */,
 				E825EE3127EB1F84008D098D /* Composite.swift */,
 				E8F2587D27E8EEF6009D0123 /* Iterator.swift */,
 				E8F2587B27E8E405009D0123 /* TemplateMethod.swift */,
@@ -198,6 +201,7 @@
 				E8F2585327E72732009D0123 /* AppDelegate.swift in Sources */,
 				E8F2585527E72732009D0123 /* SceneDelegate.swift in Sources */,
 				E8F2587627E8C7D2009D0123 /* Command.swift in Sources */,
+				E825EE3427EB41B3008D098D /* State.swift in Sources */,
 				E825EE3227EB1F84008D098D /* Composite.swift in Sources */,
 				E8F2587A27E8E1B8009D0123 /* Facade.swift in Sources */,
 				E8F2586C27E77D46009D0123 /* Decorator.swift in Sources */,
