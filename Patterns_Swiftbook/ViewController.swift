@@ -111,8 +111,15 @@ class ViewController: UIViewController {
         
 //        State
         
-        var printer = Printer()
-        printer.turnOn()
+//        var printer = Printer()
+//        printer.turnOn()
+        
+//        Builder
+        
+        let builder = ThemeBuilder()
+        builder.setText(color: .white)
+        builder.setBackground(color: .black)
+        builder.createTheme()
     }
 }
 
