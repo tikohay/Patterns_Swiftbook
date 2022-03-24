@@ -116,10 +116,23 @@ class ViewController: UIViewController {
         
 //        Builder
         
-        let builder = ThemeBuilder()
-        builder.setText(color: .white)
-        builder.setBackground(color: .black)
-        builder.createTheme()
+//        let builder = ThemeBuilder()
+//        builder.setText(color: .white)
+//        builder.setBackground(color: .black)
+//        builder.createTheme()
+        
+//        Chain of responsibility
+        
+        let enemy = Enemy()
+        
+        let soldier = Soldier()
+        let officer = Officer()
+        let general = General()
+        
+        soldier.nextRank = officer
+        officer.nextRank = general
+        
+        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
     }
 }
 
