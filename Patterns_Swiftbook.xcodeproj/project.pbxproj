@@ -13,6 +13,7 @@
 		E825EE3827EB4B75008D098D /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825EE3727EB4B75008D098D /* Builder.swift */; };
 		E863F7EC27F367130086764A /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EB27F367130086764A /* LineModel.swift */; };
 		E863F7EE27F3679E0086764A /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7ED27F3679E0086764A /* StateLinesMemento.swift */; };
+		E863F7F027F368920086764A /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EF27F368920086764A /* LinesManager.swift */; };
 		E872ED0D27EC6ED700559A37 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872ED0C27EC6ED700559A37 /* ChainOfResponsibility.swift */; };
 		E8F2585327E72732009D0123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2585227E72732009D0123 /* AppDelegate.swift */; };
 		E8F2585527E72732009D0123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2585427E72732009D0123 /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 		E825EE3727EB4B75008D098D /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		E863F7EB27F367130086764A /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
 		E863F7ED27F3679E0086764A /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
+		E863F7EF27F368920086764A /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
 		E872ED0C27EC6ED700559A37 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
 		E8F2584F27E72732009D0123 /* Patterns_Swiftbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_Swiftbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F2585227E72732009D0123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				E863F7EB27F367130086764A /* LineModel.swift */,
 				E863F7ED27F3679E0086764A /* StateLinesMemento.swift */,
+				E863F7EF27F368920086764A /* LinesManager.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				E825EE3427EB41B3008D098D /* State.swift in Sources */,
 				E825EE3227EB1F84008D098D /* Composite.swift in Sources */,
 				E8F2587A27E8E1B8009D0123 /* Facade.swift in Sources */,
+				E863F7F027F368920086764A /* LinesManager.swift in Sources */,
 				E8F2586C27E77D46009D0123 /* Decorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
