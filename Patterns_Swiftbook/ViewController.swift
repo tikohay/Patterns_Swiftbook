@@ -32,11 +32,13 @@ class ViewController: UIViewController {
         
         
 //        Decorator
-//        var porcsheBoxter: Porsche = Boxter()
-//        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
-//        print(porcsheBoxter.getPrice())
-//        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
-//        print(porcsheBoxter.getPrice())
+        var porcsheBoxter: Porsche = Boxter()
+        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
+        print(porcsheBoxter.getPrice())
+        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
+        print(porcsheBoxter.getPrice())
+        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
+        print(porcsheBoxter.getPrice())
         
         
 //        SimpleFactory
@@ -123,16 +125,16 @@ class ViewController: UIViewController {
         
 //        Chain of responsibility
         
-        let enemy = Enemy()
-        
-        let soldier = Soldier()
-        let officer = Officer()
-        let general = General()
-        
-        soldier.nextRank = officer
-        officer.nextRank = general
-        
-        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
+//        let enemy = Enemy()
+//
+//        let soldier = Soldier()
+//        let officer = Officer()
+//        let general = General()
+//
+//        soldier.nextRank = officer
+//        officer.nextRank = general
+//
+//        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
     }
 }
 
