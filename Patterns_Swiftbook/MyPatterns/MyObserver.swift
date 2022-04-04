@@ -18,17 +18,17 @@ protocol PropertyObserver2 {
 }
 
 class Teacher2: Subject2 {
-    
+
     var observers = NSMutableSet()
-    
+
     func addObserver(observer: PropertyObserver2) {
         observers.add(observer)
     }
-    
+
     func remove(observer: PropertyObserver2) {
         observers.remove(observer)
     }
-    
+
     func notify(with text: String) {
         for observer in observers {
             (observer as? PropertyObserver2)?.didGet(task: text)
@@ -41,3 +41,4 @@ class Pupil2: PropertyObserver2 {
         print(task)
     }
 }
+

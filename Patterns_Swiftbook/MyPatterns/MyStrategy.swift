@@ -14,7 +14,7 @@ protocol FilterStrategy {
 
 class Filter {
     var filterStrategy: FilterStrategy?
-    
+
     func apply() {
         filterStrategy?.apply()
     }
@@ -22,7 +22,7 @@ class Filter {
 
 
 class TopQualityFilter: FilterStrategy {
-    
+
     func apply() {
         print("TopQualityFilter")
     }
