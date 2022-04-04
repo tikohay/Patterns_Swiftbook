@@ -32,13 +32,13 @@ class ViewController: UIViewController {
         
         
 //        Decorator
-        var porcsheBoxter: Porsche = Boxter()
-        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
-        print(porcsheBoxter.getPrice())
-        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
-        print(porcsheBoxter.getPrice())
-        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
-        print(porcsheBoxter.getPrice())
+//        var porcsheBoxter: Porsche = Boxter()
+//        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
+//        print(porcsheBoxter.getPrice())
+//        porcsheBoxter = PanoramicSunroof(dp: porcsheBoxter)
+//        print(porcsheBoxter.getPrice())
+//        porcsheBoxter = PremiumAudioSystem(dp: porcsheBoxter)
+//        print(porcsheBoxter.getPrice())
         
         
 //        SimpleFactory
@@ -135,6 +135,15 @@ class ViewController: UIViewController {
 //        officer.nextRank = general
 //
 //        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
+        
+        let teacher = Teacher2()
+        let pupil = Pupil2()
+        let pupil2 = Pupil2()
+        
+        teacher.addObserver(observer: pupil)
+        teacher.addObserver(observer: pupil2)
+        
+        teacher.notify(with: "Hello")
     }
 }
 
