@@ -63,10 +63,10 @@ class MyMiddlePorche: MyBoxterDecorator {
     }
     
     override func getPrice() -> Int {
-        super.getPrice()
+        super.getPrice() + 20
     }
     
     override func getDescription() -> String {
-        super.getDescription() + 20
+        super.getDescription()
     }
 }
