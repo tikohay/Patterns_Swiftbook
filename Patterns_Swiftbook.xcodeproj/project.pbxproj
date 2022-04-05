@@ -92,10 +92,9 @@
 		E827D5C627FB1B4D001D1E4B /* MyPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */,
-				E827D5CB27FB29C8001D1E4B /* MyDecorator.swift */,
-				E827D5C927FB2469001D1E4B /* MyObserver.swift */,
-				E827D5C727FB1BA6001D1E4B /* MyStrategy.swift */,
+				E85477DD27FC2E3200730A88 /* Behavioral */,
+				E85477DC27FC2E2200730A88 /* Structural */,
+				E85477DB27FC2E0C00730A88 /* Creational */,
 			);
 			path = MyPatterns;
 			sourceTree = "<group>";
@@ -136,6 +135,31 @@
 				E8F2587B27E8E405009D0123 /* TemplateMethod.swift */,
 			);
 			path = "Поведенческие";
+			sourceTree = "<group>";
+		};
+		E85477DB27FC2E0C00730A88 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		E85477DC27FC2E2200730A88 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				E827D5CB27FB29C8001D1E4B /* MyDecorator.swift */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		E85477DD27FC2E3200730A88 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				E827D5C927FB2469001D1E4B /* MyObserver.swift */,
+				E827D5C727FB1BA6001D1E4B /* MyStrategy.swift */,
+			);
+			path = Behavioral;
 			sourceTree = "<group>";
 		};
 		E863F7EA27F366EF0086764A /* Memento */ = {
