@@ -21,6 +21,8 @@
 		E85477E727FC3E1E00730A88 /* MyComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E627FC3E1E00730A88 /* MyComposite.swift */; };
 		E85477E927FC4FDB00730A88 /* MyProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E827FC4FDB00730A88 /* MyProxy.swift */; };
 		E85477ED27FC585D00730A88 /* MyIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477EC27FC585D00730A88 /* MyIterator.swift */; };
+		E85477EF27FC672200730A88 /* MyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477EE27FC672200730A88 /* MyCommand.swift */; };
+		E85477F127FC789A00730A88 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477F027FC789A00730A88 /* MyState.swift */; };
 		E863F7EC27F367130086764A /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EB27F367130086764A /* LineModel.swift */; };
 		E863F7EE27F3679E0086764A /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7ED27F3679E0086764A /* StateLinesMemento.swift */; };
 		E863F7F027F368920086764A /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EF27F368920086764A /* LinesManager.swift */; };
@@ -62,6 +64,8 @@
 		E85477E627FC3E1E00730A88 /* MyComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComposite.swift; sourceTree = "<group>"; };
 		E85477E827FC4FDB00730A88 /* MyProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProxy.swift; sourceTree = "<group>"; };
 		E85477EC27FC585D00730A88 /* MyIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIterator.swift; sourceTree = "<group>"; };
+		E85477EE27FC672200730A88 /* MyCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommand.swift; sourceTree = "<group>"; };
+		E85477F027FC789A00730A88 /* MyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
 		E863F7EB27F367130086764A /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
 		E863F7ED27F3679E0086764A /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
 		E863F7EF27F368920086764A /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 		E85477DD27FC2E3200730A88 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				E85477F027FC789A00730A88 /* MyState.swift */,
+				E85477EE27FC672200730A88 /* MyCommand.swift */,
 				E85477EC27FC585D00730A88 /* MyIterator.swift */,
 				E827D5C927FB2469001D1E4B /* MyObserver.swift */,
 				E827D5C727FB1BA6001D1E4B /* MyStrategy.swift */,
@@ -324,6 +330,7 @@
 				E863F7EE27F3679E0086764A /* StateLinesMemento.swift in Sources */,
 				E8F2585727E72732009D0123 /* ViewController.swift in Sources */,
 				E863F7F227F36C280086764A /* CarrierState.swift in Sources */,
+				E85477EF27FC672200730A88 /* MyCommand.swift in Sources */,
 				E825EE3627EB47A5008D098D /* Proxy.swift in Sources */,
 				E85477E527FC3B2100730A88 /* MyAdapter.swift in Sources */,
 				E85477E327FC357000730A88 /* MyAbstractFactory.swift in Sources */,
@@ -341,6 +348,7 @@
 				E85477E127FC332600730A88 /* MyFactoryMethod.swift in Sources */,
 				E863F7F027F368920086764A /* LinesManager.swift in Sources */,
 				E8F2586C27E77D46009D0123 /* Decorator.swift in Sources */,
+				E85477F127FC789A00730A88 /* MyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
