@@ -100,6 +100,44 @@
 			path = MyPatterns;
 			sourceTree = "<group>";
 		};
+		E85477D827FC2C6200730A88 /* Порождающие */ = {
+			isa = PBXGroup;
+			children = (
+				E825EE3727EB4B75008D098D /* Builder.swift */,
+				E8F2587327E8C5EB009D0123 /* Singleton.swift */,
+				E8F2587127E8C27D009D0123 /* AbstractFactory.swift */,
+				E8F2586F27E8BE50009D0123 /* Factory Method.swift */,
+				E8F2586D27E86A86009D0123 /* SImpleFactory.swift */,
+			);
+			path = "Порождающие";
+			sourceTree = "<group>";
+		};
+		E85477D927FC2C7800730A88 /* Структурные */ = {
+			isa = PBXGroup;
+			children = (
+				E825EE3527EB47A5008D098D /* Proxy.swift */,
+				E8F2586B27E77D46009D0123 /* Decorator.swift */,
+				E825EE3127EB1F84008D098D /* Composite.swift */,
+				E8F2587927E8E1B8009D0123 /* Facade.swift */,
+				E8F2587727E8D204009D0123 /* Adapter.swift */,
+			);
+			path = "Структурные";
+			sourceTree = "<group>";
+		};
+		E85477DA27FC2C7F00730A88 /* Поведенческие */ = {
+			isa = PBXGroup;
+			children = (
+				E872ED0C27EC6ED700559A37 /* ChainOfResponsibility.swift */,
+				E825EE3327EB41B3008D098D /* State.swift */,
+				E8F2586727E7291C009D0123 /* Strategy.swift */,
+				E8F2587527E8C7D2009D0123 /* Command.swift */,
+				E8F2587D27E8EEF6009D0123 /* Iterator.swift */,
+				E8F2586927E761AB009D0123 /* Observer.swift */,
+				E8F2587B27E8E405009D0123 /* TemplateMethod.swift */,
+			);
+			path = "Поведенческие";
+			sourceTree = "<group>";
+		};
 		E863F7EA27F366EF0086764A /* Memento */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,24 +185,10 @@
 		E8F2586627E72805009D0123 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E85477DA27FC2C7F00730A88 /* Поведенческие */,
+				E85477D927FC2C7800730A88 /* Структурные */,
+				E85477D827FC2C6200730A88 /* Порождающие */,
 				E863F7EA27F366EF0086764A /* Memento */,
-				E872ED0C27EC6ED700559A37 /* ChainOfResponsibility.swift */,
-				E825EE3727EB4B75008D098D /* Builder.swift */,
-				E825EE3527EB47A5008D098D /* Proxy.swift */,
-				E825EE3327EB41B3008D098D /* State.swift */,
-				E825EE3127EB1F84008D098D /* Composite.swift */,
-				E8F2587D27E8EEF6009D0123 /* Iterator.swift */,
-				E8F2587B27E8E405009D0123 /* TemplateMethod.swift */,
-				E8F2587927E8E1B8009D0123 /* Facade.swift */,
-				E8F2587727E8D204009D0123 /* Adapter.swift */,
-				E8F2587527E8C7D2009D0123 /* Command.swift */,
-				E8F2587327E8C5EB009D0123 /* Singleton.swift */,
-				E8F2587127E8C27D009D0123 /* AbstractFactory.swift */,
-				E8F2586F27E8BE50009D0123 /* Factory Method.swift */,
-				E8F2586D27E86A86009D0123 /* SImpleFactory.swift */,
-				E8F2586B27E77D46009D0123 /* Decorator.swift */,
-				E8F2586927E761AB009D0123 /* Observer.swift */,
-				E8F2586727E7291C009D0123 /* Strategy.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
