@@ -15,6 +15,7 @@
 		E827D5CA27FB2469001D1E4B /* MyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827D5C927FB2469001D1E4B /* MyObserver.swift */; };
 		E827D5CC27FB29C8001D1E4B /* MyDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827D5CB27FB29C8001D1E4B /* MyDecorator.swift */; };
 		E827D5CE27FB5042001D1E4B /* MySimpleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */; };
+		E85477E127FC332600730A88 /* MyFactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E027FC332600730A88 /* MyFactoryMethod.swift */; };
 		E863F7EC27F367130086764A /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EB27F367130086764A /* LineModel.swift */; };
 		E863F7EE27F3679E0086764A /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7ED27F3679E0086764A /* StateLinesMemento.swift */; };
 		E863F7F027F368920086764A /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EF27F368920086764A /* LinesManager.swift */; };
@@ -50,6 +51,7 @@
 		E827D5C927FB2469001D1E4B /* MyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObserver.swift; sourceTree = "<group>"; };
 		E827D5CB27FB29C8001D1E4B /* MyDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDecorator.swift; sourceTree = "<group>"; };
 		E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySimpleFactory.swift; sourceTree = "<group>"; };
+		E85477E027FC332600730A88 /* MyFactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFactoryMethod.swift; sourceTree = "<group>"; };
 		E863F7EB27F367130086764A /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
 		E863F7ED27F3679E0086764A /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
 		E863F7EF27F368920086764A /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		E85477DB27FC2E0C00730A88 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				E85477E027FC332600730A88 /* MyFactoryMethod.swift */,
 				E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */,
 			);
 			path = Creational;
@@ -315,6 +318,7 @@
 				E825EE3227EB1F84008D098D /* Composite.swift in Sources */,
 				E827D5C827FB1BA6001D1E4B /* MyStrategy.swift in Sources */,
 				E8F2587A27E8E1B8009D0123 /* Facade.swift in Sources */,
+				E85477E127FC332600730A88 /* MyFactoryMethod.swift in Sources */,
 				E863F7F027F368920086764A /* LinesManager.swift in Sources */,
 				E8F2586C27E77D46009D0123 /* Decorator.swift in Sources */,
 			);

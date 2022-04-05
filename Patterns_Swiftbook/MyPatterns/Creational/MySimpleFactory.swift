@@ -16,7 +16,7 @@ protocol MyCar {
 }
 
 class MySportCar: MyCar {
-    
+
     func drive() {
         print("drive car")
     }
@@ -29,7 +29,7 @@ class MyHugeCar: MyCar {
 }
 
 class MyCarFactory {
-    
+
     static func produce(carType: MyCarType) -> MyCar {
         switch carType {
         case .huge:
