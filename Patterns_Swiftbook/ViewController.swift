@@ -135,6 +135,26 @@ class ViewController: UIViewController {
 //        officer.nextRank = general
 //
 //        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
+        
+        let highManager = MyManager(lvl: 1)
+        
+        let middleManager = MyManager(lvl: 2)
+        let middleManager2 = MyManager(lvl: 2)
+        
+        let lowManager = MyManager(lvl: 3)
+        let lowManager2 = MyManager(lvl: 3)
+        
+        let lastManager = MyLowManager(lvl: 5)
+        
+        highManager.hire(coworker: middleManager)
+        highManager.hire(coworker: middleManager2)
+        
+        middleManager.hire(coworker: lowManager)
+        middleManager2.hire(coworker: lowManager2)
+        
+        lowManager.hire(coworker: lastManager)
+        
+        highManager.getInfo()
     }
 }
 
