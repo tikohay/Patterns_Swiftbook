@@ -17,6 +17,7 @@
 		E827D5CE27FB5042001D1E4B /* MySimpleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */; };
 		E85477E127FC332600730A88 /* MyFactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E027FC332600730A88 /* MyFactoryMethod.swift */; };
 		E85477E327FC357000730A88 /* MyAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E227FC357000730A88 /* MyAbstractFactory.swift */; };
+		E85477E527FC3B2100730A88 /* MyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85477E427FC3B2100730A88 /* MyAdapter.swift */; };
 		E863F7EC27F367130086764A /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EB27F367130086764A /* LineModel.swift */; };
 		E863F7EE27F3679E0086764A /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7ED27F3679E0086764A /* StateLinesMemento.swift */; };
 		E863F7F027F368920086764A /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863F7EF27F368920086764A /* LinesManager.swift */; };
@@ -54,6 +55,7 @@
 		E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySimpleFactory.swift; sourceTree = "<group>"; };
 		E85477E027FC332600730A88 /* MyFactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFactoryMethod.swift; sourceTree = "<group>"; };
 		E85477E227FC357000730A88 /* MyAbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAbstractFactory.swift; sourceTree = "<group>"; };
+		E85477E427FC3B2100730A88 /* MyAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdapter.swift; sourceTree = "<group>"; };
 		E863F7EB27F367130086764A /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
 		E863F7ED27F3679E0086764A /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
 		E863F7EF27F368920086764A /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
@@ -144,9 +146,9 @@
 		E85477DB27FC2E0C00730A88 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				E85477E227FC357000730A88 /* MyAbstractFactory.swift */,
 				E85477E027FC332600730A88 /* MyFactoryMethod.swift */,
 				E827D5CD27FB5042001D1E4B /* MySimpleFactory.swift */,
-				E85477E227FC357000730A88 /* MyAbstractFactory.swift */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 		E85477DC27FC2E2200730A88 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				E85477E427FC3B2100730A88 /* MyAdapter.swift */,
 				E827D5CB27FB29C8001D1E4B /* MyDecorator.swift */,
 			);
 			path = Structural;
@@ -311,6 +314,7 @@
 				E8F2585727E72732009D0123 /* ViewController.swift in Sources */,
 				E863F7F227F36C280086764A /* CarrierState.swift in Sources */,
 				E825EE3627EB47A5008D098D /* Proxy.swift in Sources */,
+				E85477E527FC3B2100730A88 /* MyAdapter.swift in Sources */,
 				E85477E327FC357000730A88 /* MyAbstractFactory.swift in Sources */,
 				E827D5CA27FB2469001D1E4B /* MyObserver.swift in Sources */,
 				E827D5CC27FB29C8001D1E4B /* MyDecorator.swift in Sources */,
