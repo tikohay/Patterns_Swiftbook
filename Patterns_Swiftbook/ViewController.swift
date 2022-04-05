@@ -90,7 +90,8 @@ class ViewController: UIViewController {
 //        let goodDriverIterator = car.goodDriverIterator.next()
 //
 //        let goodDriverIteratorSequence = car.makeIterator().next()
-//        print(goodDriverIteratorSequence?.name)
+//        let a = car.makeIterator()
+//        a.allDrivers().forEach { print($0.name) }
         
 //        Composite
         
@@ -136,25 +137,16 @@ class ViewController: UIViewController {
 //
 //        soldier.shouldDefeatWithStrength(amount: enemy.strngth)
         
-        let highManager = MyManager(lvl: 1)
-        
-        let middleManager = MyManager(lvl: 2)
-        let middleManager2 = MyManager(lvl: 2)
-        
-        let lowManager = MyManager(lvl: 3)
-        let lowManager2 = MyManager(lvl: 3)
-        
-        let lastManager = MyLowManager(lvl: 5)
-        
-        highManager.hire(coworker: middleManager)
-        highManager.hire(coworker: middleManager2)
-        
-        middleManager.hire(coworker: lowManager)
-        middleManager2.hire(coworker: lowManager2)
-        
-        lowManager.hire(coworker: lastManager)
-        
-        highManager.getInfo()
+//        let element4 = LinkedListNode.value(element: 4, next: .end)
+//        let element3 = LinkedListNode.value(element: 3, next: element4)
+//        let element2 = LinkedListNode.value(element: 2, next: element3)
+//        let element1 = LinkedListNode.value(element: 1, next: element2)
+//        
+//        let list = LinkedList(head: element1)
+//        
+//        for i in list {
+//            print(i)
+//        }
     }
 }
 

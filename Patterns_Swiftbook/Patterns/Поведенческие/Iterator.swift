@@ -50,7 +50,7 @@ class Car5 {
 }
 
 extension Car5 {
-    func makeIterator() -> some GoodDriverIterator {
+    func makeIterator() -> GoodDriverIterator {
         return GoodDriverIterator(drivers: drivers)
     }
 }
